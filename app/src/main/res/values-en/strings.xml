@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DriveFlow</string>
+    <string name="app_full_name">DriveFlow Driver</string>
+    <string name="app_tagline">Smart ride request reading &amp; verdict assistant</string>
+    <string name="app_version_label">Version 1.0.0 (Driver Edition)</string>
+
+    <!-- Navigation Tabs -->
+    <string name="nav_home">Home</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_help">Help</string>
+
+    <!-- Apps -->
+    <string name="app_indrive">inDrive</string>
+    <string name="app_uber">Uber Driver</string>
+    <string name="app_didi">DiDi Driver</string>
+
+    <!-- Tones -->
+    <string name="tone_green">Great (Accept)</string>
+    <string name="tone_orange">Caution (Review)</string>
+    <string name="tone_red">Avoid (Skip)</string>
+    <string name="tone_gray">Neutral (Reading)</string>
+    <string name="tone_green_desc">Fare covers your price criteria completely with no warning flags</string>
+    <string name="tone_orange_desc">Fare is acceptable but has factors needing attention (pickup distance or area)</string>
+    <string name="tone_red_desc">Fare is below your minimum price or request violates your rules</string>
+    <string name="tone_gray_desc">Request is being read or waiting for trip detail card</string>
+
+    <!-- License Status -->
+    <string name="status_trial">Free Trial</string>
+    <string name="status_active">Active Subscription</string>
+    <string name="status_free">Limited Free Plan</string>
+    <string name="status_revoked">Revoked</string>
+    <string name="status_unknown">Unknown</string>
+
+    <!-- Languages -->
+    <string name="language_ar">العربية (مصر)</string>
+    <string name="language_en">English</string>
+    <string name="language_switch">Switch Language</string>
+
+    <!-- General Actions -->
+    <string name="action_next">Next</string>
+    <string name="action_back">Back</string>
+    <string name="action_skip">Skip</string>
+    <string name="action_start">Get Started</string>
+    <string name="action_save">Save Changes</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_close">Close</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_copied">Copied to clipboard</string>
+    <string name="action_details">Details</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_test">Test</string>
+    <string name="action_add">Add</string>
+    <string name="action_delete">Delete</string>
+
+    <!-- Welcome Slides -->
+    <string name="welcome_slide1_title">Hello Captain!</string>
+    <string name="welcome_slide1_desc">DriveFlow is your smart road companion for inDrive, Uber Driver, and DiDi Driver. Its sole purpose is helping you pick profitable rides and save time &amp; fuel.</string>
+    <string name="welcome_slide2_title">A Verdict at a Glance</string>
+    <string name="welcome_slide2_desc">As soon as a ride request appears on any supported app, a colored verdict badge pops up: Green for great trips, Orange for caution, and Red for unprofitable rides, along with net price per km.</string>
+    <string name="welcome_slide3_title">Trips Your Way</string>
+    <string name="welcome_slide3_desc">You decide the minimum price per km, maximum acceptable pickup distance, and areas you love or prefer to avoid.</string>
+    <string name="welcome_slide4_title">Good Requests Alert You!</string>
+    <string name="welcome_slide4_desc">No need to stare at your phone screen constantly while driving. When a great ride matching all your rules appears, DriveFlow rings a clear alert chime to catch your attention immediately.</string>
+    <string name="welcome_slide5_title">You Are in Control</string>
+    <string name="welcome_slide5_desc">DriveFlow only reads the screen! It NEVER taps, accepts, rejects, or negotiates for you. You make every decision and press with your own hand.</string>
+    <string name="welcome_slide6_title">How It Works &amp; Free Trial</string>
+    <string name="welcome_slide6_desc">Enjoy a full free trial with all capabilities unlocked. Afterwards, continue on the daily free plan or renew an active subscription directly with the app owner.</string>
+
+    <!-- Consent Screen -->
+    <string name="consent_title">What Does DriveFlow Read?</string>
+    <string name="consent_subtitle">Full transparency on data and how the assistant functions</string>
+    <string name="consent_point1_title">1. Reads only supported ride apps</string>
+    <string name="consent_point1_desc">The app reads ride request details only (fare, distances, rider rating, rider trip count, request age, addresses) while inDrive, Uber, or DiDi are open, with on-device text recognition or local screen capture.</string>
+    <string name="consent_point2_title">2. Never taps or negotiates for you</string>
+    <string name="consent_point2_desc">DriveFlow contains no automated tapping, clicking, or auto-acceptance logic. You have total control over your phone and ride apps.</string>
+    <string name="consent_point3_title">3. No personal rider data stored</string>
+    <string name="consent_point3_desc">Only your personal rules and a local log of numbers are saved on your device. Rider names, phone numbers, and private data are never stored.</string>
+    <string name="consent_point4_title">4. Reporting issues and unreadable requests</string>
+    <string name="consent_point4_desc">If a request fails to be recognized or you submit a report, only numbers and metrics (and a screenshot only if you choose to attach one) are sent to the developer to improve reading accuracy.</string>
+    <string name="consent_point5_title">5. Ride app terms and risk acknowledgment</string>
+    <string name="consent_point5_desc">Ride hailing apps may consider third-party screen reading a violation of their terms of service, which poses a risk to your driver account. You use DriveFlow at your own sole discretion and risk.</string>
+    <string name="consent_agree_btn">I agree and continue</string>
+    <string name="consent_read_policy_btn">Read full commitments &amp; policy</string>
+
+    <!-- Contact Screen -->
+    <string name="contact_title">Driver Contact &amp; Support Info</string>
+    <string name="contact_subtitle">Used solely to bind your subscription and provide WhatsApp driver support</string>
+    <string name="contact_name_label">Driver Name (Letters only)</string>
+    <string name="contact_name_hint">e.g., Ahmed Mahmoud</string>
+    <string name="contact_phone_label">WhatsApp Number</string>
+    <string name="contact_phone_hint">e.g., 01012345678</string>
+    <string name="contact_gov_label">Governorate</string>
+    <string name="contact_notice">Your information is never shared with third parties or used for advertisements.</string>
+    <string name="contact_submit_btn">Save &amp; Continue</string>
+    <string name="error_name_empty">Please enter your name (letters only)</string>
+    <string name="error_phone_invalid">Please enter a valid WhatsApp number</string>
+    <string name="error_gov_empty">Please select your governorate</string>
+
+    <!-- Home Screen -->
+    <string name="home_hero_on">DriveFlow is ON</string>
+    <string name="home_hero_off">DriveFlow is OFF</string>
+    <string name="home_hero_on_sub">Ready to read inDrive, Uber Driver, and DiDi</string>
+    <string name="home_hero_off_sub">Toggle switch to activate screen reader and floating verdicts</string>
+    <string name="home_reader_switch">Floating Screen Reader</string>
+    <string name="home_row_rules_title">My Rules</string>
+    <string name="home_row_alert_title">Audio Alert</string>
+    <string name="home_row_homeway_title">Heading Home</string>
+    <string name="home_row_plan_title">Subscription Plan</string>
+    <string name="home_checklist_title">Setup Checklist (%d remaining)</string>
+    <string name="home_checklist_all_done">All setup steps are completed!</string>
+    <string name="home_step1_title">1. Enable Accessibility Reader</string>
+    <string name="home_step1_sub">Reads ride fares and distances on screen automatically</string>
+    <string name="home_step2_title">2. Allow Display Over Other Apps</string>
+    <string name="home_step2_sub">Renders floating verdict badges and control bar</string>
+    <string name="home_step3_title">3. Set Minimum Price Per Km</string>
+    <string name="home_step3_sub">The core baseline to calculate trip profitability</string>
+    <string name="home_keep_running_title">Keep Reader Running (Battery Optimization)</string>
+    <string name="home_keep_running_sub">Disable power restrictions &amp; enable autostart (Xiaomi, Oppo, Samsung)</string>
+    <string name="home_supported_apps_title">Monitored Ride Apps</string>
+
+    <!-- Rules Screen -->
+    <string name="rules_screen_title">Policy &amp; Verdict Rules</string>
+    <string name="rules_save_success">Rules saved successfully</string>
+    <string name="rules_sec_country_price">1. Country, Currency &amp; Base Price</string>
+    <string name="rules_sec_distance">2. Distance Limits (Trip &amp; Pickup)</string>
+    <string name="rules_sec_rider_payment">3. Rider Rating, Payment &amp; Banned Words</string>
+    <string name="rules_sec_stops_long">4. Extra Stops &amp; Long Trips</string>
+    <string name="rules_sec_car_cost">5. Car Cost, Commission &amp; Net Profit</string>
+    <string name="rules_sec_negotiation">6. Negotiation &amp; Maximum Offer</string>
+    <string name="rules_sec_apps">7. Enabled Ride Apps</string>
+    <string name="rules_min_price_label">Minimum Price Per Km (Required)</string>
+    <string name="rules_currency_label">Currency</string>
+    <string name="rules_dist_unit_label">Distance Unit</string>
+    <string name="rules_min_total_km">Minimum Total Distance (km)</string>
+    <string name="rules_max_total_km">Maximum Total Distance (km)</string>
+    <string name="rules_max_trip_km">Maximum Trip Distance (km)</string>
+    <string name="rules_max_pickup_km">Maximum Pickup Distance (km)</string>
+    <string name="rules_max_pickup_minutes">Maximum Pickup Time (minutes)</string>
+    <string name="rules_free_pickup_km">Free Pickup Distance Allowance (km)</string>
+    <string name="rules_min_rider_rating">Minimum Rider Rating (0 - 5 stars)</string>
+    <string name="rules_min_rider_trips">Minimum Rider Previous Trips</string>
+    <string name="rules_max_request_age">Maximum Request Age (minutes)</string>
+    <string name="rules_payment_allowed">Allowed Payment Methods</string>
+    <string name="rules_payment_all">All payment methods</string>
+    <string name="rules_payment_cash">Cash only</string>
+    <string name="rules_banned_words_label">Banned Words in Rider Note</string>
+    <string name="rules_banned_words_hint">Type word and press Add (e.g., parcel, luggage, delivery)</string>
+    <string name="rules_stops_mode">Extra Stops Handling</string>
+    <string name="rules_stop_fee">Extra Stop Compensation Fee</string>
+    <string name="rules_long_trip_mode">Long Trips / Intercity Handling</string>
+    <string name="rules_long_trip_km">Distance Defined as Long Trip (km)</string>
+    <string name="rules_warn_uber_saver">Warn on Uber Saver requests</string>
+    <string name="rules_fuel_cost">Fuel Cost Per Km</string>
+    <string name="rules_upkeep_cost">Car Maintenance &amp; Wear Cost Per Km</string>
+    <string name="rules_basis_net">Evaluate Verdict Based on Net After Commission</string>
+    <string name="rules_negotiation_step">Negotiation Step (Counter-offer)</string>
+    <string name="rules_max_offer">Maximum Counter-Offer Cap</string>
+
+    <!-- Areas Screen -->
+    <string name="areas_title">Avoided &amp; Preferred Areas</string>
+    <string name="areas_avoided_tab">Avoided Areas</string>
+    <string name="areas_preferred_tab">Preferred Areas</string>
+    <string name="areas_add_hint">Type area or district name (e.g., Maadi, Haram)</string>
+    <string name="areas_no_gov_warning">Please select your governorate in contact info to enable smart district suggestions</string>
+    <string name="areas_empty_avoided">No avoided areas listed</string>
+    <string name="areas_empty_preferred">No preferred areas listed</string>
+    <string name="areas_confirm_delete">Are you sure you want to remove this area?</string>
+    <string name="areas_confirm_move">Move this area to the other list?</string>
+
+    <!-- Alerts Screen -->
+    <string name="alerts_title">Audio Alert Settings</string>
+    <string name="alerts_master_switch">Enable Audio Alert for Great Requests</string>
+    <string name="alerts_mode_label">Alert Mode</string>
+    <string name="alerts_mode_sound">Sound only</string>
+    <string name="alerts_mode_sound_vibrate">Sound and vibration</string>
+    <string name="alerts_when_rings_title">When does it ring?</string>
+    <string name="alerts_when_rings_desc">The chime rings exclusively when a request gets a GREEN (Great) verdict: fare satisfies your price per km, distances are within limits, and no banned rules are triggered.</string>
+    <string name="alerts_test_btn">Test Alert Chime Now</string>
+    <string name="alerts_volume_warning">Note: Make sure your device media and notification volume is turned up to hear alerts clearly while driving.</string>
+    <string name="alerts_subscription_note">Audio alert works throughout your free trial and active subscription.</string>
+
+    <!-- HomeWay Screen -->
+    <string name="homeway_title">Heading Home (On My Way)</string>
+    <string name="homeway_switch">Enable Heading Home Mode</string>
+    <string name="homeway_mode_home">Destination: Home</string>
+    <string name="homeway_mode_custom">Destination: Custom Place</string>
+    <string name="homeway_input_hint">Paste Google Maps link or enter coordinates (lat, lon)</string>
+    <string name="homeway_label_hint">Place Name (e.g., Home - Fifth Settlement, or Club)</string>
+    <string name="homeway_desc">When enabled, DriveFlow highlights requests heading toward your chosen destination so you can grab a ride on your way home.</string>
+    <string name="homeway_clear_btn">Clear Saved Location</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_screen_title">Display &amp; App Settings</string>
+    <string name="settings_marker_size_title">Verdict Marker Size Beside Requests</string>
+    <string name="settings_size_small">Small</string>
+    <string name="settings_size_normal">Normal (Recommended)</string>
+    <string name="settings_size_large">Large</string>
+    <string name="settings_preview_sample_requests">Live Sample Preview:</string>
+    <string name="settings_bar_opacity_title">Floating Bar Opacity (%d%%)</string>
+    <string name="settings_bar_position_title">Floating Bar Position</string>
+    <string name="settings_bar_pos_auto">Automatic (beside map automatically)</string>
+    <string name="settings_bar_pos_custom">Saved Custom Position</string>
+    <string name="settings_bar_pos_reset">Reset Position to Default</string>
+    <string name="settings_auto_off_title">Floating Assistant Auto-Off</string>
+    <string name="settings_auto_off_1h">After 1 hour of inactivity</string>
+    <string name="settings_auto_off_3h">After 3 hours (Default)</string>
+    <string name="settings_auto_off_6h">After 6 hours</string>
+    <string name="settings_auto_off_never">Never (Manual toggle)</string>
+    <string name="settings_bank_notice">Important Notice: Certain mobile banking and official apps refuse to open while an accessibility screen reader is active. Auto-off helps ensure smooth daily use.</string>
+
+    <!-- Help Screen -->
+    <string name="help_title">Help &amp; Driver Support</string>
+    <string name="help_how_it_works_title">How DriveFlow Works</string>
+    <string name="help_pillar1">1. Colored badge beside each request for instant evaluation</string>
+    <string name="help_pillar2">2. Intelligent floating control bar over ride maps</string>
+    <string name="help_pillar3">3. You make the decisions; zero automated clicks</string>
+    <string name="help_pillar4">4. Audio chime for great requests while driving</string>
+    <string name="help_colors_legend_title">Verdict Color Legend</string>
+    <string name="help_support_channels_title">Direct Support Channels</string>
+    <string name="help_whatsapp">WhatsApp Support</string>
+    <string name="help_telegram">Telegram Driver Channel</string>
+    <string name="help_facebook">Facebook Page</string>
+    <string name="help_youtube">YouTube Tutorials</string>
+    <string name="help_device_info_title">Your Device Support Details</string>
+    <string name="help_device_id_label">Device ID:</string>
+    <string name="help_replay_welcome">Replay Welcome Guide</string>
+    <string name="help_report_btn">Report an Issue or Send Feedback</string>
+    <string name="help_install_guide_btn">Sideload Permissions Guide (Android 13+)</string>
+    <string name="help_commitments_btn">DriveFlow Commitments (What App Never Does)</string>
+    <string name="help_about_title">About DriveFlow</string>
+
+    <!-- Report Screen -->
+    <string name="report_title">Report an Issue or Idea</string>
+    <string name="report_category_label">Category</string>
+    <string name="report_cat_reading">Screen reading incorrect or missing</string>
+    <string name="report_cat_verdict">Inaccurate verdict calculation</string>
+    <string name="report_cat_overlay">Overlay bar or badge not displaying</string>
+    <string name="report_cat_subscription">Subscription or activation issue</string>
+    <string name="report_cat_idea">Feature request or improvement idea</string>
+    <string name="report_cat_other">Other</string>
+    <string name="report_message_label">Issue Details</string>
+    <string name="report_message_hint">Describe what happened so our team can investigate...</string>
+    <string name="report_attach_image">Attach Screenshot (Optional)</string>
+    <string name="report_privacy_warning">Privacy Warning: Please blur or do not include rider names or phone numbers in attached screenshots. DriveFlow transmits only numbers and technical logs.</string>
+    <string name="report_send_btn">Send Report</string>
+    <string name="report_sent_success">Report #%d submitted successfully. Thank you for your feedback!</string>
+    <string name="report_unsaved_dialog_title">Discard Changes?</string>
+    <string name="report_unsaved_dialog_msg">You have unsent details. Are you sure you want to discard your changes?</string>
+
+    <!-- Subscribe Screen -->
+    <string name="subscribe_title">Subscription &amp; Activation</string>
+    <string name="subscribe_current_status">Current Account Status: %s</string>
+    <string name="subscribe_days_left">Remaining: %d days</string>
+    <string name="subscribe_price_text_default">Monthly: 150 EGP only | Special discount for annual plan</string>
+    <string name="subscribe_key_label">License Key</string>
+    <string name="subscribe_key_hint">DF-XXXX-XXXX-XXXX</string>
+    <string name="subscribe_affiliate_label">Discount / Gift Code (Optional)</string>
+    <string name="subscribe_activate_btn">Activate License Now</string>
+    <string name="subscribe_whatsapp_owner">Contact Owner on WhatsApp for Subscription</string>
+    <string name="subscribe_data_sent_title">What data is sent upon activation? (Full Transparency)</string>
+    <string name="subscribe_data_sent_content">• Derived Device ID\n• App &amp; Android OS version\n• App signer certificate fingerprint\n• Governorate &amp; preferred language\n• Driver name &amp; phone entered for support</string>
+
+    <!-- API Errors -->
+    <string name="err_api_invalid_key">Invalid license key format. Please check and re-enter.</string>
+    <string name="err_api_key_not_found">License key not found in the system.</string>
+    <string name="err_api_key_on_other_device">This key is bound to another device. Contact support to unbind.</string>
+    <string name="err_api_revoked">This account or license has been revoked.</string>
+    <string name="err_api_rate_limited">Too many attempts. Please wait a few minutes and try again.</string>
+    <string name="err_api_affiliate_unknown">Invalid referral or gift code.</string>
+    <string name="err_api_affiliate_self">You cannot use your own referral code.</string>
+    <string name="err_api_gift_expired">This gift code has expired.</string>
+    <string name="err_api_gift_full">This gift code has reached its maximum redemptions.</string>
+    <string name="err_api_gift_used">This gift code has already been redeemed on this device.</string>
+    <string name="err_api_bad_request">Invalid request. Please try again later.</string>
+
+    <!-- News Screen -->
+    <string name="news_title">News &amp; App Updates</string>
+    <string name="news_empty">No news or updates right now.</string>
+    <string name="news_unread">New</string>
+
+    <!-- Commitments Screen -->
+    <string name="commitments_title">DriveFlow Commitments</string>
+    <string name="commitments_subtitle">What our application does and will NEVER do</string>
+    <string name="commitments_item1_title">1. Never taps on your phone screen</string>
+    <string name="commitments_item1_desc">There is no auto-click or gesture emulation code anywhere in this application.</string>
+    <string name="commitments_item2_title">2. Never accepts or rejects rides automatically</string>
+    <string name="commitments_item2_desc">The decision is 100% yours. DriveFlow provides colored insight; you press Accept or Decline.</string>
+    <string name="commitments_item3_title">3. Never negotiates or bids automatically</string>
+    <string name="commitments_item3_desc">DriveFlow only suggests a fair counter-offer; it never raises or lowers bids on your behalf.</string>
+    <string name="commitments_item4_title">4. Never collects personal rider data</string>
+    <string name="commitments_item4_desc">We never record rider names, phone numbers, or private identities.</string>
+    <string name="commitments_item5_title">5. Never monitors apps outside driver apps</string>
+    <string name="commitments_item5_desc">The reader is programmed to inspect content exclusively when inDrive, Uber, or DiDi are open.</string>
+
+    <!-- Calibration Screen (Hidden) -->
+    <string name="calibration_title">Trip Distance Reader (OCR) Calibration</string>
+    <string name="calibration_subtitle">Adjust OCR crop rectangle percentages per app (Advanced)</string>
+    <string name="calibration_x">Horizontal Offset (X): %d%%</string>
+    <string name="calibration_y">Vertical Offset (Y): %d%%</string>
+    <string name="calibration_w">Width: %d%%</string>
+    <string name="calibration_h">Height: %d%%</string>
+
+    <!-- Blocked Screen -->
+    <string name="blocked_title">App Suspended On This Device</string>
+    <string name="blocked_msg_default">Service has been suspended by administration. Please contact WhatsApp support to resolve the issue.</string>
+    <string name="blocked_whatsapp_btn">Contact Support on WhatsApp</string>
+
+    <!-- Install Guide Screen -->
+    <string name="guide_title">Permissions Setup Guide (Android 13+)</string>
+    <string name="guide_step1_title">Step 1: Allow Restricted Settings</string>
+    <string name="guide_step1_desc">Because this app is sideloaded: Go to App Info > tap the three dots in top bar > select Allow restricted settings and confirm with phone lock.</string>
+    <string name="guide_step2_title">Step 2: Enable Accessibility Service</string>
+    <string name="guide_step2_desc">Go to Phone Settings > Accessibility > Installed Apps > DriveFlow Driver > Turn ON.</string>
+    <string name="guide_step3_title">Step 3: Allow Display Over Other Apps</string>
+    <string name="guide_step3_desc">Grant permission to show floating verdicts over other ride apps.</string>
+    <string name="guide_step4_title">Step 4: Disable Battery Optimization</string>
+    <string name="guide_step4_desc">Set battery usage to Unrestricted and enable Autostart (Xiaomi/Oppo) to prevent the OS from killing the reader.</string>
+    <string name="guide_open_settings_btn">Open App Settings</string>
+
+    <!-- Restricted Settings Dialog -->
+    <string name="dialog_restricted_title">Important Notice for Android 13+</string>
+    <string name="dialog_restricted_msg">If you see Restricted setting when trying to enable accessibility:\n\n1. Go to App info\n2. Tap the three dots (⋮) in the top corner\n3. Tap Allow restricted settings\n4. Confirm with phone PIN/fingerprint, then return and enable.</string>
+
+    <!-- Overlay & Floating Control Bar -->
+    <string name="overlay_state_reading">Reading requests...</string>
+    <string name="overlay_state_waiting_details">Waiting for details...</string>
+    <string name="overlay_state_license_problem">Subscription inactive or expired</string>
+    <string name="overlay_state_reader_paused">Reader temporarily paused</string>
+    <string name="overlay_state_update_available">Update available</string>
+    <string name="overlay_btn_drag">Drag floating bar</string>
+    <string name="overlay_btn_close">Close for this request</string>
+    <string name="overlay_btn_report">Report this request</string>
+    <string name="overlay_btn_collapse">Collapse floating bar</string>
+    <string name="overlay_btn_expand">Expand floating bar</string>
+    <string name="overlay_fare_label">Fare</string>
+    <string name="overlay_distance_label">Distance</string>
+    <string name="overlay_needed_label">Needed</string>
+    <string name="overlay_net_profit_label">Net Profit</string>
+    <string name="overlay_suggested_offer_label">Suggested Offer</string>
+    <string name="overlay_road_easy">Easy traffic</string>
+    <string name="overlay_road_slow">Slow traffic</string>
+    <string name="overlay_road_hard">Heavy congestion</string>
+
+    <!-- Opportunity Alerts -->
+    <string name="alert_channel_name">DriveFlow Opportunity Alerts</string>
+    <string name="alert_channel_desc">Instant sound &amp; heads-up alerts for trips matching green criteria</string>
+    <string name="alert_opportunity_title">Great Opportunity! %s</string>
+    <string name="alert_opportunity_body">%1$s | %2$s EGP (%3$s km)</string>
+
+    <!-- Diagnostics -->
+    <string name="settings_overlay_diag_title">Active Overlay Window Type</string>
+    <string name="settings_overlay_diag_accessibility">Accessibility Overlay (2032)</string>
+    <string name="settings_overlay_diag_application">Application Overlay (2038)</string>
+    <string name="settings_overlay_diag_none">Disabled or Unavailable</string>
+
+    <!-- Overlay Playground Screen -->
+    <string name="playground_title">Overlay Playground</string>
+    <string name="playground_subtitle">Live preview of markers and floating bar without ride apps</string>
+    <string name="playground_test_alert_btn">Test Alert Sound &amp; Vibration</string>
+    <string name="playground_toggle_bar">Toggle Floating Bar</string>
+    <string name="playground_collapse_bar">Collapse / Expand Bar</string>
+    <string name="playground_simulate_requests">Simulated Screen Requests</string>
+</resources>

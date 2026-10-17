@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="128dp"
+    android:height="128dp"
+    android:viewportWidth="128"
+    android:viewportHeight="128">
+    <!-- Background navy circle -->
+    <path
+        android:fillColor="#07131B"
+        android:pathData="M64,64m-60,0a60,60 0,1 1,120 0a60,60 0,1 1,-120 0" />
+    <!-- Map Pin Outline (Gold #F6C945) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#F6C945"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M64,106 C64,106 32,74 32,50 C32,32.327 46.327,18 64,18 C81.673,18 96,32.327 96,50 C96,74 64,106 64,106 Z" />
+    <!-- Speedometer Gauge Arc (Mint #7CF5C4) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#7CF5C4"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M46,62 A22,22 0 1,1 82,62" />
+    <!-- Gauge Ticks (Mint #7CF5C4) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#7CF5C4"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M48,59 L52,57 M64,30 L64,35 M80,59 L76,57 M53,41 L56,44 M75,41 L72,44" />
+    <!-- Speedometer Center Hub (Gold #F6C945) -->
+    <path
+        android:fillColor="#F6C945"
+        android:pathData="M64,56m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+    <!-- Speedometer Needle (Gold #F6C945) pointing towards high speed -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#F6C945"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M64,56 L76,42" />
+    <!-- Base accent dot (Mint #7CF5C4) -->
+    <path
+        android:fillColor="#7CF5C4"
+        android:pathData="M64,106m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0" />
+</vector>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.DriveFlow" parent="android:Theme.DeviceDefault.NoActionBar">
+        <item name="android:statusBarColor">#07131B</item>
+        <item name="android:navigationBarColor">#07131B</item>
+        <item name="android:windowBackground">#07131B</item>
+    </style>
+    <!-- Alias for backward compatibility with manifest -->
+    <style name="Theme.MyApplication" parent="Theme.DriveFlow" />
+</resources>

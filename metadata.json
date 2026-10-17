@@ -1,0 +1,6 @@
+{
+  "name": "DriveFlow Driver",
+  "description": "DriveFlow Driver assistant overlay for inDrive, Uber Driver, and DiDi Driver.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

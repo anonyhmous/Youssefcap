@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand colors -->
+    <color name="df_navy">#07131B</color>
+    <color name="df_surface">#0E2230</color>
+    <color name="df_gold">#F6C945</color>
+    <color name="df_mint">#7CF5C4</color>
+    <color name="df_text">#FFFFFF</color>
+    <color name="df_muted">#9FB3C2</color>
+
+    <!-- Verdict colors -->
+    <color name="df_verdict_green">#22C55E</color>
+    <color name="df_verdict_orange">#F59E0B</color>
+    <color name="df_verdict_red">#EF4444</color>
+    <color name="df_verdict_gray">#64748B</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
